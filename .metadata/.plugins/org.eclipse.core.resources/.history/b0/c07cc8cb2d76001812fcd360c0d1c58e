@@ -1,0 +1,5 @@
+package org.arunoda.model;
+
+public class Message {
+
+}

@@ -1,0 +1,5 @@
+package org.arunoda.service;
+
+public class MessageService {
+
+}

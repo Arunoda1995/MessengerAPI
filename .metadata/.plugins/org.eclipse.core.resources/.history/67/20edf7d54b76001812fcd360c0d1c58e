@@ -1,0 +1,25 @@
+package org.arunoda.messenger.service;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import org.arunoda.messenger.database.Database;
+import org.arunoda.messenger.model.Message;
+
+public class MessageService {
+	
+	private Map<Long,Message> massages = Database.getMessages();
+	
+	public List<Message> getAllMessages()
+	{
+		
+		return new ArrayList<Message>(massages.values());
+		
+	}
+
+	public Message getMassages(long id)
+	{
+		massages.get(id);
+	}
+}

@@ -1,0 +1,5 @@
+package org.arunoda.messenger.database;
+
+public class Database {
+
+}
